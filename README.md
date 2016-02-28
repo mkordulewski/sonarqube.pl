@@ -1,4 +1,4 @@
-# SONARQUBE.PL
+# SonarQube.pl
 
 * Polish SonarQube website:
   * http://sonarqube.pl/
