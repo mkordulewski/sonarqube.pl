@@ -1,223 +1,351 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>SonarQube™ </title>
-<meta name="KEYWORDS" content="sonar,sonarqube,sonarsource,continuous inspection,maven,quality,metric,java,pmd,checkstyle,findbugs,code">
-<meta name="verify-v1" content="Ls1AbCNbrkArKhV+QQnDYjH82iIecICKCg7Wq+b28fY=">
-<meta name="DESCRIPTION" content="SonarQube is an open source quality management platform, dedicated to continuously analyze and measure source code quality, from the portfolio to the method.">
-<meta name="generator" content="WordPress 3.3.1">
-<link rel="stylesheet" href="static/blueprint-screen.css" type="text/css" media="screen, projection">
-<link rel="stylesheet" href="static/blueprint-print.css" type="text/css" media="print">
-<!--[if lt IE 8]><link rel="stylesheet" href="http://www.sonarqube.org/wp-content/themes/sonarsource.org/blueprint-ie.css" type="text/css" media="screen, projection"><![endif]-->
-<link rel="stylesheet" href="static/style.css" type="text/css" media="all">
-<link rel="alternate" type="application/rss+xml" title="SonarQube™ blog" href="http://feeds.feedburner.com/Sonar">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>SonarQube™ </title>
+    <meta name="KEYWORDS"
+          content="sonar,sonarqube,sonarsource,continuous inspection,maven,quality,metric,java,pmd,checkstyle,findbugs,code">
+    <meta name="verify-v1" content="Ls1AbCNbrkArKhV+QQnDYjH82iIecICKCg7Wq+b28fY=">
+    <meta name="DESCRIPTION"
+          content="SonarQube is an open source quality management platform, dedicated to continuously analyze and measure source code quality, from the portfolio to the method.">
+    <meta name="generator" content="WordPress 3.3.1">
+    <link rel="stylesheet" href="static/blueprint-screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="static/blueprint-print.css" type="text/css" media="print">
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="http://www.sonarqube.org/wp-content/themes/sonarsource.org/blueprint-ie.css"
+          type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="static/style.css" type="text/css" media="all">
+    <link rel="alternate" type="application/rss+xml" title="SonarQube™ blog" href="http://feeds.feedburner.com/Sonar">
 
-<!--[if lte IE 6]>
-   <link href="http://www.sonarqube.org/wp-content/themes/sonarsource.org/png_fix.css" media="all" rel="Stylesheet" type="text/css">
-<![endif]-->
+    <!--[if lte IE 6]>
+    <link href="http://www.sonarqube.org/wp-content/themes/sonarsource.org/png_fix.css" media="all" rel="Stylesheet"
+          type="text/css">
+    <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="SonarQube™ comments" href="http://feeds.feedburner.com/SonarComments">
-<script type="text/javascript" src="static/scriptaculous-full.js"></script>
-<link rel="pingback" href="http://www.sonarqube.org/xmlrpc.php">
-<link rel="alternate" type="application/rss+xml" title="SonarQube™ » Open Source Quality Management Platform Comments Feed" href="http://www.sonarqube.org/homepage/feed/">
-<link rel="stylesheet" id="cptchStylesheet-css" href="static/style_002.css" type="text/css" media="all">
-<link rel="stylesheet" id="wp-pagenavi-css" href="static/pagenavi-css.css" type="text/css" media="all">
-<script type="text/javascript" src="static/jquery.js"></script>
-<script type="text/javascript" src="static/external-tracking.js"></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.sonarqube.org/xmlrpc.php?rsd">
-<link rel="prev" title="Features" href="http://www.sonarqube.org/features/">
-<link rel="next" title="Roadmap" href="http://www.sonarqube.org/roadmap/">
-<link rel="canonical" href="http://www.sonarqube.org/">
-<link rel="shortcut icon" type="image/x-icon" href="http://www.sonarqube.org/wp-content/themes/sonarsource.org/images/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="SonarQube™ comments"
+          href="http://feeds.feedburner.com/SonarComments">
+    <script type="text/javascript" src="static/scriptaculous-full.js"></script>
+    <link rel="pingback" href="http://www.sonarqube.org/xmlrpc.php">
+    <link rel="alternate" type="application/rss+xml"
+          title="SonarQube™ » Open Source Quality Management Platform Comments Feed"
+          href="http://www.sonarqube.org/homepage/feed/">
+    <link rel="stylesheet" id="cptchStylesheet-css" href="static/style_002.css" type="text/css" media="all">
+    <link rel="stylesheet" id="wp-pagenavi-css" href="static/pagenavi-css.css" type="text/css" media="all">
+    <script type="text/javascript" src="static/jquery.js"></script>
+    <script type="text/javascript" src="static/external-tracking.js"></script>
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.sonarqube.org/xmlrpc.php?rsd">
+    <link rel="prev" title="Features" href="http://www.sonarqube.org/features/">
+    <link rel="next" title="Roadmap" href="http://www.sonarqube.org/roadmap/">
+    <link rel="canonical" href="http://www.sonarqube.org/">
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://www.sonarqube.org/wp-content/themes/sonarsource.org/images/favicon.ico">
 </head>
 <body>
 <div class="container">
-		<div id="header" class="span-24 last">
-		  	<div class="span-5"><a href="http://www.sonarsource.org/"><img src="static/sonar.png" class="logo"></a></div>
+    <div id="header" class="span-24 last">
+        <div class="span-5"><a href="http://www.sonarsource.org/"><img src="static/sonar.png" class="logo"></a></div>
 
-</div>
-<div id="nav" class="span-24 last">
-<ul>
-<li class="page_item page-item-11"><a href="http://www.sonarqube.org/downloads/">Ściągnij</a></li>
-<li class="page_item page-item-24"><a href="http://www.sonarqube.org/features/">Funkcjonalności</a></li>
-<li class="page_item page-item-7665"><a href="http://www.sonarqube.org/get-support/">Wsparcie</a></li>
-<li class="page_item page-item-7727"><a href="http://www.sonarqube.org/get-involved/">Dołącz</a></li>
-<li class="page_item page-item-7990"><a href="http://www.sonarqube.org/development/">Rozwój</a></li>
-<li class="page_item page-item-161"><a href="http://www.sonarqube.org/roadmap/">Mapa</a></li>
-<li class="page_item page-item-8950"><a href="http://www.sonarqube.org/resources/">Zasoby</a></li>
-<li><a href="http://www.sonarqube.org/category/blog">Blog</a></li>
-<li><a href="http://www.sonarsource.com/">SonarSource</a></li>
-</ul>
-</div>     <div class="span-24 last" id="accroche">
-		<div id="ap1" class="accroche_part" style="opacity: 0.999999;">
+    </div>
+    <div id="nav" class="span-24 last">
+        <ul>
+            <li class="page_item page-item-11"><a href="http://www.sonarqube.org/downloads/">Ściągnij</a></li>
+            <li class="page_item page-item-24"><a href="http://www.sonarqube.org/features/">Funkcjonalności</a></li>
+            <li class="page_item page-item-7665"><a href="http://www.sonarqube.org/get-support/">Wsparcie</a></li>
+            <li class="page_item page-item-7727"><a href="http://www.sonarqube.org/get-involved/">Dołącz</a></li>
+            <li class="page_item page-item-7990"><a href="http://www.sonarqube.org/development/">Rozwój</a></li>
+            <li class="page_item page-item-161"><a href="http://www.sonarqube.org/roadmap/">Mapa</a></li>
+            <li class="page_item page-item-8950"><a href="http://www.sonarqube.org/resources/">Zasoby</a></li>
+            <li><a href="http://www.sonarqube.org/category/blog">Blog</a></li>
+            <li><a href="http://www.sonarsource.com/">SonarSource</a></li>
+        </ul>
+    </div>
+    <div class="span-24 last" id="accroche">
+        <div id="ap1" class="accroche_part" style="opacity: 0.999999;">
             <div style="float:right; padding-left: 20px;">
-               <img src="static/dashboard.png">
+                <img src="static/dashboard.png">
             </div>
             <h1 style="font-size:230.5%;">Trzymaj dług techniczny pod kontrolą</h1>
-            <h2 style="font-size:174%;line-height: 1.4em;">Produktywność spada?<br>Przejrzyj swój kod źródłowy i go wyczyść!</h2>
-         </div>
-			<div id="ap2" class="accroche_part" style="opacity: 0.999999; display: none;">
+
+            <h2 style="font-size:174%;line-height: 1.4em;">Produktywność spada?<br>Przejrzyj swój kod źródłowy i go
+                wyczyść!</h2>
+        </div>
+        <div id="ap2" class="accroche_part" style="opacity: 0.999999; display: none;">
             <div style="float:right; padding-left: 20px;">
-                  <img class="png" src="static/timeline.png">
+                <img class="png" src="static/timeline.png">
             </div>
             <h1 style="font-size:230.5%;">Platforma do zarządzania jakością kodu</h1>
-            <h2 style="font-size:160.5%;line-height: 1.4em;">SonarQube jest centrum do zarządzania jakością kodu, oferującym wizualne raportowanie na temat projektów i umożliwiającym śledzenie metryk i porównywanie ich zmian.</h2>
-         </div>
-         <div id="ap3" class="accroche_part" style="display: none;">
+
+            <h2 style="font-size:160.5%;line-height: 1.4em;">SonarQube jest centrum do zarządzania jakością kodu,
+                oferującym wizualne raportowanie na temat projektów i umożliwiającym śledzenie metryk i porównywanie ich
+                zmian.</h2>
+        </div>
+        <div id="ap3" class="accroche_part" style="display: none;">
             <div style="float:right">
-               <img class="png" src="static/drilldown.png">
+                <img class="png" src="static/drilldown.png">
             </div>
             <h1 style="font-size:230%;">Dynamiczna społeczność</h1>
+
             <h2 style="font-size:160%;line-height: 1.4em;">Ponad 250 tys. ściągnięć<br>
                 Ponad 25 tys. instalacji na całym świecie<br>
                 Ponad 1500 subskrybentów listy mailingowej
             </h2>
-         </div>
-     </div>
-     <div class="span-24 last" id="accrochenav">
+        </div>
+    </div>
+    <div class="span-24 last" id="accrochenav">
         <ul>
-           <li class="selected" id="al1"><a href="#" onclick="showAccroche(1);">Misja</a></li>
-           <li class="" id="al2"><a href="#" onclick="showAccroche(2);">Platforma</a></li>
-           <li id="al3"><a href="#" onclick="showAccroche(3);">Liczby</a></li>
+            <li class="selected" id="al1"><a href="#" onclick="showAccroche(1);">Misja</a></li>
+            <li class="" id="al2"><a href="#" onclick="showAccroche(2);">Platforma</a></li>
+            <li id="al3"><a href="#" onclick="showAccroche(3);">Liczby</a></li>
         </ul>
-     </div>
-     <script>
+    </div>
+    <script>
         function showAccroche(id) {
-       $$('.accroche_part').invoke('hide');
-           new Effect.Appear('ap' + id);
-           $$('#accrochenav li').invoke('removeClassName', 'selected');
-           $('al' + id).addClassName('selected');
-           return false;
+            $$('.accroche_part').invoke('hide');
+            new Effect.Appear('ap' + id);
+            $$('#accrochenav li').invoke('removeClassName', 'selected');
+            $('al' + id).addClassName('selected');
+            return false;
         }
         showAccroche(1);
-     </script>
+    </script>
 
-<div class="span-17" id="main">
-	       <div id="page-95">
-	     <table border="0">
-<tbody>
-<tr>
-<td colspan="3">
-<div style="background-color: #efefef; border-top: 2px solid #bbb; padding: 5px;">
-<div class="left" style="float: left; padding: 0px 15px  0 5px;"><img src="static/os.png" alt="" height="40" width="44"></div>
-<p style="margin: 0;">SonarQube™ (wcześniej znany jako “Sonar”) jest <a href="https://github.com/SonarSource/sonarqube">projektem otwarto-źródłowym</a>. <a href="http://www.sonarsource.org/downloads/">Ściągnij</a> i <a href="http://docs.sonarqube.org/display/SONAR/Setup+and+Upgrade">zainstaluj</a> swoją własną kopię. Dystrybucja na <a href="http://www.gnu.org/licenses/lgpl.txt">licencji LGPL v3</a>.</p>
-</div>
-</td>
-</tr>
-<tr valign="top">
-<td style="vertical-align: top;" valign="top" width="47%">
-<table border="0">
-<tbody>
-<tr>
-<td style="padding: 8px 0px 2px 0px; font-size: 146.5%; color: #444444;" valign="top">All in one</td>
-</tr>
-<tr>
-<td style="padding: 10px 0; border-top: 2px solid #BBBBBB;" align="justify">SonarQube is an open platform to manage code quality. As such, it covers the 7 axes of code quality:</td>
-</tr>
-<tr>
-<td style="padding: 10px 0;" align="center"><img style="border: none;" src="static/7axes.png" alt=""></td>
-</tr>
-<tr>
-<td style="padding: 8px 0px 2px 0px; font-size: 146.5%; color: #444444;">Extend with plugins</td>
-</tr>
-<tr>
-<td style="padding: 10px 0; border-top: 2px solid #BBBBBB;" align="justify">Covering
- new languages, adding rules engines, computing advanced metrics can be 
-done through a powerful extension mechanism. More than <a href="http://redirect.sonarsource.com/doc/plugin-library.html">50 plugins</a> are already available.</td>
-</tr>
-<tr>
-<td style="padding: 8px 0px 2px 0px; font-size: 146.5%; color: #444444;">Obsługiwane języki</td>
-</tr>
-<tr>
-<td style="padding: 10px 0; border-top: 2px solid #BBBBBB;" align="justify">Ponad 20 języków programowania jest obsługiwanych <a href="http://redirect.sonarsource.com/doc/plugin-library.html">za pomocą rozszerzeń</a> wliczając języki Java, C#, C/C++, PL/SQL, Cobol, ABAP…</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td width="6%"></td>
-<td style="vertical-align: top;" width="47%">
-<table border="0">
-<tbody>
-<tr>
-<td style="padding: 8px 0px 2px 0px; font-size: 146.5%; color: #444;" valign="top">In 3 clicks</td>
-</tr>
-<tr>
-<td style="padding: 10px 0; border-top: 2px solid #BBB;" align="justify">SonarQube
- has got a very efficient way of navigating, a balance between 
-high-level view, dashboard, TimeMachine and defect hunting tools. This 
-enables to quickly uncover projects and / or components that are in 
-Technical Debt to establish action plans.</td>
-</tr>
-<tr>
-<td style="padding-top: 0px;" align="center"><img style="border: none;" src="static/3clicks.png" alt=""></td>
-</tr>
-<tr>
-<td style="padding: 8px 0px 2px 0px; font-size: 146.5%; color: #444;">Quality is central</td>
-</tr>
-<tr>
-<td style="padding: 10px 0; border-top: 2px solid #BBBBBB;" align="justify">SonarQube
- is a web-based application. Rules, alerts, thresholds, exclusions, 
-settings… can be configured online. By leveraging its database, 
-SonarQube not only allows to combine metrics altogether but also to mix 
-them with historical measures.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-		   </div>
-			
-</div>
-<div id="sidebar" class="span-6 prepend-1 last">
-	<ul id="widgets">
-       <li id="text-370575801" class="widget widget_text"><h1>Rozpocznij</h1>			<div class="textwidget"><ol>
-<li><a href="http://www.sonarqube.org/downloads">Ściągnij</a></li>
-<li>Przeczytaj <a href="http://redirect.sonarsource.com/doc/installing.html">dokumentację</a></li>
-<li><a href="http://docs.sonarqube.org/display/SONAR/Installing+the+Server">Rozpakuj</a> i uruchom</li>
-<li><a href="http://docs.sonarqube.org/display/SONAR/Analyzing+Source+Code">Zanalizuj</a> projekty</li>
-<li><a href="http://www.sonarsource.org/features">Popraw jakość</a></li></ol></div>
-		</li><li id="text-370575804" class="widget widget_text"><h1>SonarQube™ in action</h1>			<div class="textwidget"><center>
-<a onclick="pageTracker._trackPageview('/ext/nemo.sonarsource.org/');" href="http://nemo.sonarsource.org/"><img style="border:thin solid #aaaaaa;" src="static/nemo.png"></a>
-</center>
-To see more, visit <a onclick="pageTracker._trackPageview('/ext/nemo.sonarsource.org/');" href="http://nemo.sonarsource.org/">Nemo</a>, the online instance of SonarQube dedicated to open source projects.</div>
-		</li><li id="text-370575805" class="widget widget_text"><h1>Extend SonarQube™</h1>			<div class="textwidget"><ul><li>Install <a href="http://redirect.sonarsource.com/doc/plugin-library.html">plugins</a></li>
-<li>Integrate to <a href="http://www.sonarlint.org/">IDE</a></li>
-</ul></div>
-		</li><li id="text-370575809" class="widget widget_text"><h1>Powered by SonarSource™</h1>			<div class="textwidget">SonarSource  proposes <a href="http://www.sonarsource.com/products/plugins/">commercial extensions</a> to cover additional languages and manage portfolios of projects along with <a href="http://www.sonarsource.com/">Professional services</a> .
+    <div class="span-17" id="main">
+        <div id="page-95">
+            <table border="0">
+                <tbody>
+                <tr>
+                    <td colspan="3">
+                        <div style="background-color: #efefef; border-top: 2px solid #bbb; padding: 5px;">
+                            <div class="left" style="float: left; padding: 0px 15px  0 5px;"><img src="static/os.png"
+                                                                                                  alt="" height="40"
+                                                                                                  width="44"></div>
+                            <p style="margin: 0;">SonarQube™ (wcześniej znany jako “Sonar”) jest <a
+                                    href="https://github.com/SonarSource/sonarqube">projektem otwarto-źródłowym</a>. <a
+                                    href="http://www.sonarsource.org/downloads/">Ściągnij</a> i <a
+                                    href="http://docs.sonarqube.org/display/SONAR/Setup+and+Upgrade">zainstaluj</a>
+                                swoją własną kopię. Dystrybucja na <a href="http://www.gnu.org/licenses/lgpl.txt">licencji
+                                    LGPL v3</a>.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="vertical-align: top;" valign="top" width="47%">
+                        <table border="0">
+                            <tbody>
+                            <tr>
+                                <td style="padding: 8px 0px 2px 0px; font-size: 146.5%; color: #444444;" valign="top">
+                                    All in one
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px 0; border-top: 2px solid #BBBBBB;" align="justify">SonarQube is
+                                    an open platform to manage code quality. As such, it covers the 7 axes of code
+                                    quality:
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px 0;" align="center"><img style="border: none;"
+                                                                                 src="static/7axes.png" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px 0px 2px 0px; font-size: 146.5%; color: #444444;">Extend with
+                                    plugins
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px 0; border-top: 2px solid #BBBBBB;" align="justify">Covering
+                                    new languages, adding rules engines, computing advanced metrics can be
+                                    done through a powerful extension mechanism. More than <a
+                                            href="http://redirect.sonarsource.com/doc/plugin-library.html">50
+                                        plugins</a> are already available.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px 0px 2px 0px; font-size: 146.5%; color: #444444;">Obsługiwane
+                                    języki
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px 0; border-top: 2px solid #BBBBBB;" align="justify">Ponad 20
+                                    języków programowania jest obsługiwanych <a
+                                            href="http://redirect.sonarsource.com/doc/plugin-library.html">za pomocą
+                                        rozszerzeń</a> wliczając języki Java, C#, C/C++, PL/SQL, Cobol, ABAP…
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td width="6%"></td>
+                    <td style="vertical-align: top;" width="47%">
+                        <table border="0">
+                            <tbody>
+                            <tr>
+                                <td style="padding: 8px 0px 2px 0px; font-size: 146.5%; color: #444;" valign="top">In 3
+                                    clicks
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px 0; border-top: 2px solid #BBB;" align="justify">SonarQube
+                                    has got a very efficient way of navigating, a balance between
+                                    high-level view, dashboard, TimeMachine and defect hunting tools. This
+                                    enables to quickly uncover projects and / or components that are in
+                                    Technical Debt to establish action plans.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-top: 0px;" align="center"><img style="border: none;"
+                                                                                  src="static/3clicks.png" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px 0px 2px 0px; font-size: 146.5%; color: #444;">Quality is
+                                    central
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px 0; border-top: 2px solid #BBBBBB;" align="justify">SonarQube
+                                    is a web-based application. Rules, alerts, thresholds, exclusions,
+                                    settings… can be configured online. By leveraging its database,
+                                    SonarQube not only allows to combine metrics altogether but also to mix
+                                    them with historical measures.
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
 
-</div>
-		</li>    </ul>
-</div>
-<div class="span-24 last" id="footer">
-<div class="span-6"><h2>Blog</h2><div class="textwid">Subscribe to our blog by <a href="http://www.feedburner.com/fb/a/emailverifySubmit?feedId=2531086&amp;loc=en_US">email</a> <img style="vertical-align: middle;" src="static/subscribe-email.gif"> or directly through the <a href="http://www.sonarqube.org/feed/">feed</a> <img style="vertical-align: middle;" src="static/feed-small.png"><ul><li class="cat-posts-item-11809"><a href="http://www.sonarqube.org/sonarlint-for-visual-studio-lets-fix-some-real-issues-in-code/">SonarLint for Visual Studio: Let's Fix Some Real Issues in Code!</a></li><li class="cat-posts-item-11745"><a href="http://www.sonarqube.org/sonarqube-5-3-in-screenshots/">SonarQube 5.3 in Screenshots</a></li><li class="cat-posts-item-11649"><a href="http://www.sonarqube.org/sonarqube-5-2-in-screenshots/">SonarQube 5.2 in Screenshots</a></li><li class="cat-posts-item-11703"><a href="http://www.sonarqube.org/easy-analysis-of-visual-studio-solutions-with-the-sonarqube-scanner-for-msbuild/">Analysis of Visual Studio Solutions with the SonarQube Scanner for MSBuild</a></li><li class="cat-posts-item-11587"><a href="http://www.sonarqube.org/sonarqube-enters-the-security-realm-and-makes-a-good-first-showing/">SonarQube Enters the Security Realm and Makes a Good First Showing</a></li></ul></div></div><div class="span-6"><h2>Stay Connected</h2>			<div class="textwidget"><a href="https://twitter.com/SonarQube">Twitter</a>
-<br>
-<a href="https://github.com/SonarSource">Github SonarSource</a>
-<br>
-<a href="https://github.com/SonarQubeCommunity">Github Community</a>
-<br>
-<a href="http://www.linkedin.com/company/sonarsource">LinkedIn</a>
-<br>
-<a href="http://www.sonarsource.org/category/blog">Blog</a>
-</div>
-		</div><div class="span-6"><h2>Need help?</h2>			<div class="textwidget"><ul>
-<li><a href="http://redirect.sonarsource.com/doc/faq.html">Frequently Asked Questions</a></li>
-<li><a href="http://docs.sonarqube.org/display/SONAR/Documentation">Documentation</a></li>
-<li><a href="http://www.sonarsource.org/support/">Community mailing-lists</a></li>
-<li><a href="http://www.sonarsource.com/products/editions/support/">Professional Support</a>, provided by SonarSource</li></ul></div>
-		</div><div class="span-6 last">
-<h2>Awards</h2>
-<div class="textwidget">
-  <ul><li>Productivity Winner of the <a href="http://www.sonarsource.com/company/awards/">Jolt Product Excellence Awards</a> 2009 and 2010 and finalist in 2012<center> <img src="static/jolt.png"></center></li>
+    </div>
+    <div id="sidebar" class="span-6 prepend-1 last">
+        <ul id="widgets">
+            <li id="text-370575801" class="widget widget_text"><h1>Rozpocznij</h1>
 
-<li>"World’s most promising start-up focused on Open Source" - <a href="http://www.sonarsource.com/company/awards/">Open World Forum</a> 2009</li></ul>
+                <div class="textwidget">
+                    <ol>
+                        <li><a href="http://www.sonarqube.org/downloads">Ściągnij</a></li>
+                        <li>Przeczytaj <a href="http://redirect.sonarsource.com/doc/installing.html">dokumentację</a>
+                        </li>
+                        <li><a href="http://docs.sonarqube.org/display/SONAR/Installing+the+Server">Rozpakuj</a> i
+                            uruchom
+                        </li>
+                        <li><a href="http://docs.sonarqube.org/display/SONAR/Analyzing+Source+Code">Zanalizuj</a>
+                            projekty
+                        </li>
+                        <li><a href="http://www.sonarsource.org/features">Popraw jakość</a></li>
+                    </ol>
+                </div>
+            </li>
+            <li id="text-370575804" class="widget widget_text"><h1>SonarQube™ in action</h1>
 
+                <div class="textwidget">
+                    <center>
+                        <a onclick="pageTracker._trackPageview('/ext/nemo.sonarsource.org/');"
+                           href="http://nemo.sonarsource.org/"><img style="border:thin solid #aaaaaa;"
+                                                                    src="static/nemo.png"></a>
+                    </center>
+                    To see more, visit <a onclick="pageTracker._trackPageview('/ext/nemo.sonarsource.org/');"
+                                          href="http://nemo.sonarsource.org/">Nemo</a>, the online instance of SonarQube
+                    dedicated to open source projects.
+                </div>
+            </li>
+            <li id="text-370575805" class="widget widget_text"><h1>Extend SonarQube™</h1>
+
+                <div class="textwidget">
+                    <ul>
+                        <li>Install <a href="http://redirect.sonarsource.com/doc/plugin-library.html">plugins</a></li>
+                        <li>Integrate to <a href="http://www.sonarlint.org/">IDE</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li id="text-370575809" class="widget widget_text"><h1>Powered by SonarSource™</h1>
+
+                <div class="textwidget">SonarSource proposes <a href="http://www.sonarsource.com/products/plugins/">commercial
+                    extensions</a> to cover additional languages and manage portfolios of projects along with <a
+                        href="http://www.sonarsource.com/">Professional services</a> .
+
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="span-24 last" id="footer">
+        <div class="span-6"><h2>Blog</h2>
+
+            <div class="textwid">Subscribe to our blog by <a
+                    href="http://www.feedburner.com/fb/a/emailverifySubmit?feedId=2531086&amp;loc=en_US">email</a> <img
+                    style="vertical-align: middle;" src="static/subscribe-email.gif"> or directly through the <a
+                    href="http://www.sonarqube.org/feed/">feed</a> <img style="vertical-align: middle;"
+                                                                        src="static/feed-small.png">
+                <ul>
+                    <li class="cat-posts-item-11809"><a
+                            href="http://www.sonarqube.org/sonarlint-for-visual-studio-lets-fix-some-real-issues-in-code/">SonarLint
+                        for Visual Studio: Let's Fix Some Real Issues in Code!</a></li>
+                    <li class="cat-posts-item-11745"><a href="http://www.sonarqube.org/sonarqube-5-3-in-screenshots/">SonarQube
+                        5.3 in Screenshots</a></li>
+                    <li class="cat-posts-item-11649"><a href="http://www.sonarqube.org/sonarqube-5-2-in-screenshots/">SonarQube
+                        5.2 in Screenshots</a></li>
+                    <li class="cat-posts-item-11703"><a
+                            href="http://www.sonarqube.org/easy-analysis-of-visual-studio-solutions-with-the-sonarqube-scanner-for-msbuild/">Analysis
+                        of Visual Studio Solutions with the SonarQube Scanner for MSBuild</a></li>
+                    <li class="cat-posts-item-11587"><a
+                            href="http://www.sonarqube.org/sonarqube-enters-the-security-realm-and-makes-a-good-first-showing/">SonarQube
+                        Enters the Security Realm and Makes a Good First Showing</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="span-6"><h2>Stay Connected</h2>
+
+            <div class="textwidget"><a href="https://twitter.com/SonarQube">Twitter</a>
+                <br>
+                <a href="https://github.com/SonarSource">Github SonarSource</a>
+                <br>
+                <a href="https://github.com/SonarQubeCommunity">Github Community</a>
+                <br>
+                <a href="http://www.linkedin.com/company/sonarsource">LinkedIn</a>
+                <br>
+                <a href="http://www.sonarsource.org/category/blog">Blog</a>
+            </div>
+        </div>
+        <div class="span-6"><h2>Need help?</h2>
+
+            <div class="textwidget">
+                <ul>
+                    <li><a href="http://redirect.sonarsource.com/doc/faq.html">Frequently Asked Questions</a></li>
+                    <li><a href="http://docs.sonarqube.org/display/SONAR/Documentation">Documentation</a></li>
+                    <li><a href="http://www.sonarsource.org/support/">Community mailing-lists</a></li>
+                    <li><a href="http://www.sonarsource.com/products/editions/support/">Professional Support</a>,
+                        provided by SonarSource
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="span-6 last">
+            <h2>Awards</h2>
+
+            <div class="textwidget">
+                <ul>
+                    <li>Productivity Winner of the <a href="http://www.sonarsource.com/company/awards/">Jolt Product
+                        Excellence Awards</a> 2009 and 2010 and finalist in 2012
+                        <center><img src="static/jolt.png"></center>
+                    </li>
+
+                    <li>"World’s most promising start-up focused on Open Source" - <a
+                            href="http://www.sonarsource.com/company/awards/">Open World Forum</a> 2009
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
 </div>
-</div>
-</div>
-</div><!-- /container -->
-<p></p><center>© 2008-2015, SonarSource S.A, Switzerland. All content is copyright protected. SONARQUBE and SONARSOURCE are <br>trademarks
- of SonarSource SA. All other trademarks and copyrights are the property
- of their respective owners. All rights are expressly reserved.<br>&nbsp;</center><p></p>
-</body></html>
+<!-- /container -->
+<p></p>
+<center>© 2008-2015, SonarSource S.A, Switzerland. All content is copyright protected. SONARQUBE and SONARSOURCE are
+    <br>trademarks
+    of SonarSource SA. All other trademarks and copyrights are the property
+    of their respective owners. All rights are expressly reserved.<br>&nbsp;</center>
+<p></p>
+</body>
+</html>
