@@ -1,0 +1,28 @@
+CACHE MANIFEST
+# 2017-01-12:v1
+
+CACHE:
+/index.html
+/404.html
+/assets/main-7abee547013cb9efc1442ec38c20c51df8d4dc09780b328b069a214f073a3938.css
+/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
+/fonts/Roboto-Bold.woff
+/fonts/Roboto-Light.woff
+/fonts/Roboto-Medium.woff
+/fonts/Roboto-Medium.woff2
+/fonts/Roboto-Regular.woff2
+/fonts/Roboto-Bold.woff2
+/fonts/Roboto-Regular.woff
+/fonts/Roboto-Light.woff2
+/images/ui/external.svg
+/images/logos/sonarqube-logo-black.svg
+/images/background/jumbotron-bg.svg
+/images/illustration/centralize.svg
+/images/illustration/keep-calm-and-return-home.png
+/images/illustration/clean-code.svg
+/images/illustration/devops.svg
+/images/illustration/cognitive.svg
+/images/screenshot/screen-sonarqube-com.png
+
+FALLBACK:
+/ 404.html
