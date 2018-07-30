@@ -1,6 +1,6 @@
 # SonarQube.pl
 
 * Polish SonarQube website:
-  * http://sonarqube.pl/
+  * https://sonarqube.pl/
 * Based on main SonarQube website:
-  * http://sonarqube.org/
+  * https://www.sonarqube.org/
